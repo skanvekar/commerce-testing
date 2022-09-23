@@ -7,19 +7,19 @@
     "url": "https://github.com/AdobeDocs/commerce-testing"
   },
   "dependencies": {
-    "@adobe/gatsby-theme-aio": "^4.4.2",
-    "gatsby": "^4.19.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "@devdocs/gatsby-theme-acd": "0.0.2",
+    "gatsby": "4.22.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "remark-cli": "^10.0.1",
-    "remark-validate-links": "^11.0.2"
+    "remark-cli": "^11.0.0",
+    "remark-validate-links": "^12.1.0"
   },
   "scripts": {
     "start": "gatsby build && gatsby serve",
     "start:prefix": "gatsby build --prefix-paths && gatsby serve --prefix-paths",
-    "dev": "gatsby develop",
+    "dev": "gatsby develop --open",
     "dev:https": "gatsby develop --https --host localhost.corp.adobe.com --port 9000",
     "build": "gatsby build",
     "serve": "gatsby serve",
