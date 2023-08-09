@@ -157,7 +157,7 @@ Default value:
 <const name="TESTS_CLEANUP" value="enabled"/>
 ```
 
-If this constant is set to `enabled`, the integration test framework cleans the test database and reinstalls Commerce on every test run.
+If this constant is set to `enabled`, the integration test framework cleans the test database and reinstall Commerce on every test run.
 This way, any new modules will be automatically picked up and any artifacts left behind by previous test runs will be removed.
 It also causes the test framework to flush the test configuration, the cache, and the code generation before executing any tests.
 
